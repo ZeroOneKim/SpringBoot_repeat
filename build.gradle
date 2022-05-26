@@ -25,6 +25,11 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	//implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.7.0'
+	implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.2.0'
+	runtimeOnly 'mysql:mysql-connector-java'
+
 }
 
 tasks.named('test') {
