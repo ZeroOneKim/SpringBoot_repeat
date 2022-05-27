@@ -1,4 +1,6 @@
 # SpringBoot_repeat
-Intellij
-JAVA/Gradle/JDK11    
-주로 Thymleaf 사용 + JPA
+게시판
+Intellij / JAVA/Gradle/JDK11
+DB - MariaDatabase
++restapi
+DI - Thymleaf/JPA/LOMBOK
